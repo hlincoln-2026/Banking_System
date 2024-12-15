@@ -3,8 +3,10 @@
 
 #include <string>
 
+static int callback(void *NotUsed, int argc, char **argv, char **azColName);
+void start_screen();
 void open_account(std::string name);
-std::string account_loopup();
+bool account_lookup();
 
 
 #endif
